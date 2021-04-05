@@ -1,0 +1,121 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  font-weight: 300;
+  color: #111;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("images/bg.jpg");
+  background-size: cover;
+  /*
+      transition: 5s;
+
+  animation-name: animate;
+  animation-direction: alternate-reverse;
+  animation-duration: 30s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: ease-in-out;
+
+  @keyframes animate{
+      0%{
+          background-image: url('images/bg.jpg');
+      }
+      50%{
+          background: url('images/bg2.jpg');
+      }
+      100%{
+          background-image: url('images/bg3.jpg');
+      }
+  }
+  */
+}
+.banner .content {
+  max-width: 900px;
+  text-align: center;
+}
+.banner .content h2 {
+  font-size: 5em;
+  color: #fff;
+}
+.banner .content p {
+  font-size: 1em;
+  color: #fff;
+}
+.banner .btn {
+  font-size: 1em;
+  color: #fff;
+  background: #ff0157;
+  display: inline-block;
+  padding: 10px 30px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  border-bottom: solid 1px #fff;
+  transition: all 1s;
+}
+.banner .btn:hover {
+  color: #ff0157;
+  background-color: #fff;
+  border-bottom: solid 1px #ff0157;
+  letter-spacing: 5px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 1s;
+}
+header .logo {
+  color: #fff;
+  font-weight: 700;
+  font-size: 2em;
+  text-decoration: none;
+}
+header .logo span {
+  color: #ff0157;
+}
+header .navigation {
+  position: relative;
+  display: flex;
+}
+header .navigation li {
+  list-style: none;
+  margin-left: 30px;
+}
+header .navigation li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
+  background: linear-gradient(to top, white 0%, white 20px, transparent 5px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s, color 1s;
+}
+header .navigation li a:hover {
+  background: linear-gradient(to top, white 0%, white 20px, transparent 5px) no-repeat;
+  background-size: 100% 100%;
+  color: #ff0157;
+}
+
+/*# sourceMappingURL=style.css.map */
